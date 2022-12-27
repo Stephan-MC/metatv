@@ -5,11 +5,19 @@
         "build": "vite build"
     },
     "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.0.0",
         "@vitejs/plugin-vue": "^4.0.0",
         "@vue/compiler-sfc": "^3.2.45",
         "autoprefixer": "^10.4.13",
+        "eslint": "^8.30.0",
+        "eslint-config-standard-with-typescript": "latest",
+        "eslint-plugin-import": "^2.25.2",
+        "eslint-plugin-n": "^15.0.0",
+        "eslint-plugin-promise": "^6.0.0",
+        "eslint-plugin-vue": "^9.8.0",
         "postcss": "^8.4.20",
         "tailwindcss": "^3.2.4",
+        "typescript": "*",
         "vite": "^4.0.3",
         "vite-plugin-laravel": "^0.2.2"
     },

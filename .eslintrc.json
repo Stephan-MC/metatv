@@ -5,17 +5,16 @@
     },
     "extends": [
         "plugin:vue/vue3-recommended",
-        "standard-with-typescript"
+        "standard-with-typescript",
+        "plugin:prettier/prettier"
     ],
-    "overrides": [
-    ],
+    "overrides": [],
+    "parser": "vue-eslint-parser",
     "parserOptions": {
+        "parser": "@typescript-eslint/parser",
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
-    "plugins": [
-        "vue"
-    ],
-    "rules": {
-    }
+    "plugins": ["vue"],
+    "rules": {}
 }
